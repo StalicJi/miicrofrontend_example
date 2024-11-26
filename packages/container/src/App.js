@@ -10,7 +10,7 @@ export default () => {
   });
   return (
     <BrowserRouter>
-      <StylesProvider generateClassName={createGenerateClassName()}>
+      <StylesProvider generateClassName={generateClassName}>
         <div>
           <Header />
           <MarketingApp />
